@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		270034AD27908C58001562CE /* SearchingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270034AC27908C58001562CE /* SearchingView.swift */; };
+		271B0DFB27909C12004B9CA1 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B0DFA27909C12004B9CA1 /* CategoriesView.swift */; };
+		276F58622792320F00DB355B /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F58612792320F00DB355B /* TabBarButton.swift */; };
+		277294E9278CF54C000CF7D1 /* newReddit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277294E8278CF54C000CF7D1 /* newReddit.swift */; };
+		277294EB278CFB81000CF7D1 /* EndedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277294EA278CFB81000CF7D1 /* EndedEvent.swift */; };
+		277294ED278CFEA3000CF7D1 /* EndDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277294EC278CFEA3000CF7D1 /* EndDetail.swift */; };
+		27BEED072789BA8D007434C2 /* Uni_LifeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED062789BA8D007434C2 /* Uni_LifeApp.swift */; };
+		27BEED0B2789BA8E007434C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BEED0A2789BA8E007434C2 /* Assets.xcassets */; };
+		27BEED0E2789BA8E007434C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BEED0D2789BA8E007434C2 /* Preview Assets.xcassets */; };
+		27BEED452789BAD8007434C2 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED312789BAD8007434C2 /* TabBar.swift */; };
+		27BEED462789BAD8007434C2 /* EventsTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED322789BAD8007434C2 /* EventsTab.swift */; };
+		27BEED472789BAD8007434C2 /* RedditTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED332789BAD8007434C2 /* RedditTab.swift */; };
+		27BEED482789BAD8007434C2 /* SearchTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED342789BAD8007434C2 /* SearchTab.swift */; };
+		27BEED492789BAD8007434C2 /* SpottedTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED352789BAD8007434C2 /* SpottedTab.swift */; };
+		27BEED4A2789BAD8007434C2 /* FavouritesTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED362789BAD8007434C2 /* FavouritesTab.swift */; };
+		27BEED4C2789BAD8007434C2 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED392789BAD8007434C2 /* DetailView.swift */; };
+		27BEED4D2789BAD8007434C2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED3A2789BAD8007434C2 /* CardView.swift */; };
+		27BEED4E2789BAD8007434C2 /* SpotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED3B2789BAD8007434C2 /* SpotView.swift */; };
+		27BEED502789BAD8007434C2 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED3D2789BAD8007434C2 /* PostView.swift */; };
+		27BEED512789BAD8007434C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED3E2789BAD8007434C2 /* ContentView.swift */; };
+		27BEED522789BAD8007434C2 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED402789BAD8007434C2 /* NavigationBar.swift */; };
+		27BEED542789BAD8007434C2 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED422789BAD8007434C2 /* Events.swift */; };
+		27BEED552789BAD8007434C2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED432789BAD8007434C2 /* ModelData.swift */; };
+		27BEED562789BAD8007434C2 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BEED442789BAD8007434C2 /* DetailModel.swift */; };
+		27C794892790D5EA00E0165D /* SearchedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C794882790D5EA00E0165D /* SearchedCard.swift */; };
+		27C7948B2790D66600E0165D /* SearchedCardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7948A2790D66600E0165D /* SearchedCardDetail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270034AC27908C58001562CE /* SearchingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingView.swift; sourceTree = "<group>"; };
+		271B0DFA27909C12004B9CA1 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		276F58612792320F00DB355B /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		277294E8278CF54C000CF7D1 /* newReddit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newReddit.swift; sourceTree = "<group>"; };
+		277294EA278CFB81000CF7D1 /* EndedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndedEvent.swift; sourceTree = "<group>"; };
+		277294EC278CFEA3000CF7D1 /* EndDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDetail.swift; sourceTree = "<group>"; };
+		27BEED032789BA8D007434C2 /* Uni Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uni Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEED062789BA8D007434C2 /* Uni_LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uni_LifeApp.swift; sourceTree = "<group>"; };
+		27BEED0A2789BA8E007434C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BEED0D2789BA8E007434C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27BEED312789BAD8007434C2 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		27BEED322789BAD8007434C2 /* EventsTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTab.swift; sourceTree = "<group>"; };
+		27BEED332789BAD8007434C2 /* RedditTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditTab.swift; sourceTree = "<group>"; };
+		27BEED342789BAD8007434C2 /* SearchTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTab.swift; sourceTree = "<group>"; };
+		27BEED352789BAD8007434C2 /* SpottedTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpottedTab.swift; sourceTree = "<group>"; };
+		27BEED362789BAD8007434C2 /* FavouritesTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesTab.swift; sourceTree = "<group>"; };
+		27BEED392789BAD8007434C2 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		27BEED3A2789BAD8007434C2 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		27BEED3B2789BAD8007434C2 /* SpotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpotView.swift; sourceTree = "<group>"; };
+		27BEED3D2789BAD8007434C2 /* PostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		27BEED3E2789BAD8007434C2 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27BEED402789BAD8007434C2 /* NavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		27BEED422789BAD8007434C2 /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		27BEED432789BAD8007434C2 /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		27BEED442789BAD8007434C2 /* DetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
+		27C794882790D5EA00E0165D /* SearchedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedCard.swift; sourceTree = "<group>"; };
+		27C7948A2790D66600E0165D /* SearchedCardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedCardDetail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BEED002789BA8D007434C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276F585A27922FBF00DB355B /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED392789BAD8007434C2 /* DetailView.swift */,
+				27BEED3A2789BAD8007434C2 /* CardView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		276F585B27922FF600DB355B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				270034AC27908C58001562CE /* SearchingView.swift */,
+				271B0DFA27909C12004B9CA1 /* CategoriesView.swift */,
+				27C794882790D5EA00E0165D /* SearchedCard.swift */,
+				27C7948A2790D66600E0165D /* SearchedCardDetail.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		276F585C27922FFF00DB355B /* Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED3D2789BAD8007434C2 /* PostView.swift */,
+			);
+			path = Reddit;
+			sourceTree = "<group>";
+		};
+		276F585D2792300800DB355B /* Spotted */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED3B2789BAD8007434C2 /* SpotView.swift */,
+				277294EA278CFB81000CF7D1 /* EndedEvent.swift */,
+				277294EC278CFEA3000CF7D1 /* EndDetail.swift */,
+			);
+			path = Spotted;
+			sourceTree = "<group>";
+		};
+		277294E7278CF524000CF7D1 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED402789BAD8007434C2 /* NavigationBar.swift */,
+				277294E8278CF54C000CF7D1 /* newReddit.swift */,
+				276F58612792320F00DB355B /* TabBarButton.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		27BEECFA2789BA8D007434C2 = {
+			isa = PBXGroup;
+			children = (
+				27BEED052789BA8D007434C2 /* Uni Life */,
+				27BEED042789BA8D007434C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BEED042789BA8D007434C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED032789BA8D007434C2 /* Uni Life.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BEED052789BA8D007434C2 /* Uni Life */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED062789BA8D007434C2 /* Uni_LifeApp.swift */,
+				27BEED372789BAD8007434C2 /* Views */,
+				27BEED3F2789BAD8007434C2 /* Model */,
+				27BEED302789BAD8007434C2 /* Tab */,
+				277294E7278CF524000CF7D1 /* Extras */,
+				27BEED0A2789BA8E007434C2 /* Assets.xcassets */,
+				27BEED0C2789BA8E007434C2 /* Preview Content */,
+			);
+			path = "Uni Life";
+			sourceTree = "<group>";
+		};
+		27BEED0C2789BA8E007434C2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED0D2789BA8E007434C2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27BEED302789BAD8007434C2 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED312789BAD8007434C2 /* TabBar.swift */,
+				27BEED322789BAD8007434C2 /* EventsTab.swift */,
+				27BEED342789BAD8007434C2 /* SearchTab.swift */,
+				27BEED352789BAD8007434C2 /* SpottedTab.swift */,
+				27BEED332789BAD8007434C2 /* RedditTab.swift */,
+				27BEED362789BAD8007434C2 /* FavouritesTab.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		27BEED372789BAD8007434C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				276F585A27922FBF00DB355B /* Events */,
+				276F585B27922FF600DB355B /* Search */,
+				276F585D2792300800DB355B /* Spotted */,
+				276F585C27922FFF00DB355B /* Reddit */,
+				27BEED3E2789BAD8007434C2 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		27BEED3F2789BAD8007434C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27BEED422789BAD8007434C2 /* Events.swift */,
+				27BEED432789BAD8007434C2 /* ModelData.swift */,
+				27BEED442789BAD8007434C2 /* DetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BEED022789BA8D007434C2 /* Uni Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "Uni Life" */;
+			buildPhases = (
+				27BEECFF2789BA8D007434C2 /* Sources */,
+				27BEED002789BA8D007434C2 /* Frameworks */,
+				27BEED012789BA8D007434C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uni Life";
+			productName = "Uni Life";
+			productReference = 27BEED032789BA8D007434C2 /* Uni Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BEECFB2789BA8D007434C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					27BEED022789BA8D007434C2 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 27BEECFE2789BA8D007434C2 /* Build configuration list for PBXProject "Uni Life" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BEECFA2789BA8D007434C2;
+			productRefGroup = 27BEED042789BA8D007434C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BEED022789BA8D007434C2 /* Uni Life */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BEED012789BA8D007434C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BEED0E2789BA8E007434C2 /* Preview Assets.xcassets in Resources */,
+				27BEED0B2789BA8E007434C2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BEECFF2789BA8D007434C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BEED502789BAD8007434C2 /* PostView.swift in Sources */,
+				27BEED452789BAD8007434C2 /* TabBar.swift in Sources */,
+				27BEED552789BAD8007434C2 /* ModelData.swift in Sources */,
+				27BEED522789BAD8007434C2 /* NavigationBar.swift in Sources */,
+				270034AD27908C58001562CE /* SearchingView.swift in Sources */,
+				276F58622792320F00DB355B /* TabBarButton.swift in Sources */,
+				27BEED4E2789BAD8007434C2 /* SpotView.swift in Sources */,
+				27BEED542789BAD8007434C2 /* Events.swift in Sources */,
+				271B0DFB27909C12004B9CA1 /* CategoriesView.swift in Sources */,
+				27BEED472789BAD8007434C2 /* RedditTab.swift in Sources */,
+				27BEED4C2789BAD8007434C2 /* DetailView.swift in Sources */,
+				277294EB278CFB81000CF7D1 /* EndedEvent.swift in Sources */,
+				27BEED462789BAD8007434C2 /* EventsTab.swift in Sources */,
+				277294E9278CF54C000CF7D1 /* newReddit.swift in Sources */,
+				277294ED278CFEA3000CF7D1 /* EndDetail.swift in Sources */,
+				27BEED072789BA8D007434C2 /* Uni_LifeApp.swift in Sources */,
+				27BEED4A2789BAD8007434C2 /* FavouritesTab.swift in Sources */,
+				27BEED492789BAD8007434C2 /* SpottedTab.swift in Sources */,
+				27C794892790D5EA00E0165D /* SearchedCard.swift in Sources */,
+				27BEED512789BAD8007434C2 /* ContentView.swift in Sources */,
+				27BEED562789BAD8007434C2 /* DetailModel.swift in Sources */,
+				27BEED4D2789BAD8007434C2 /* CardView.swift in Sources */,
+				27BEED482789BAD8007434C2 /* SearchTab.swift in Sources */,
+				27C7948B2790D66600E0165D /* SearchedCardDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27BEED252789BA8F007434C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BEED262789BA8F007434C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BEED282789BA8F007434C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uni Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 6252UT695R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capibara-Rotanti.Uni-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27BEED292789BA8F007434C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Uni Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 6252UT695R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capibara-Rotanti.Uni-Life";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BEECFE2789BA8D007434C2 /* Build configuration list for PBXProject "Uni Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BEED252789BA8F007434C2 /* Debug */,
+				27BEED262789BA8F007434C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "Uni Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BEED282789BA8F007434C2 /* Debug */,
+				27BEED292789BA8F007434C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BEECFB2789BA8D007434C2 /* Project object */;
+}
