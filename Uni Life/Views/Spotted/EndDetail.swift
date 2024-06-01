@@ -27,7 +27,7 @@ struct EndDetail: View {
                 cover
                 HStack(spacing: 0){
                     TabBarButton(text: "All",current: $current, image: "eye", namespace: namespace)
-                    TabBarButton(text: "My commercials",current: $current, image: "person", namespace: namespace)
+                    TabBarButton(text: "My comments",current: $current, image: "person", namespace: namespace)
                 }
 //                Text(String(number)+" spot")
 //                    .font(.headline)

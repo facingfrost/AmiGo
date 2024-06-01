@@ -42,7 +42,7 @@
 		277294E8278CF54C000CF7D1 /* newReddit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newReddit.swift; sourceTree = "<group>"; };
 		277294EA278CFB81000CF7D1 /* EndedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndedEvent.swift; sourceTree = "<group>"; };
 		277294EC278CFEA3000CF7D1 /* EndDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndDetail.swift; sourceTree = "<group>"; };
-		27BEED032789BA8D007434C2 /* Uni Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uni Life.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BEED032789BA8D007434C2 /* AmiGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BEED062789BA8D007434C2 /* Uni_LifeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uni_LifeApp.swift; sourceTree = "<group>"; };
 		27BEED0A2789BA8E007434C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27BEED0D2789BA8E007434C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		27BEED042789BA8D007434C2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				27BEED032789BA8D007434C2 /* Uni Life.app */,
+				27BEED032789BA8D007434C2 /* AmiGo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				27BEED312789BAD8007434C2 /* TabBar.swift */,
-				27BEED322789BAD8007434C2 /* EventsTab.swift */,
 				27BEED342789BAD8007434C2 /* SearchTab.swift */,
+				27BEED322789BAD8007434C2 /* EventsTab.swift */,
 				27BEED352789BAD8007434C2 /* SpottedTab.swift */,
 				27BEED332789BAD8007434C2 /* RedditTab.swift */,
 				27BEED362789BAD8007434C2 /* FavouritesTab.swift */,
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		27BEED022789BA8D007434C2 /* Uni Life */ = {
+		27BEED022789BA8D007434C2 /* AmiGo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "Uni Life" */;
+			buildConfigurationList = 27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "AmiGo" */;
 			buildPhases = (
 				27BEECFF2789BA8D007434C2 /* Sources */,
 				27BEED002789BA8D007434C2 /* Frameworks */,
@@ -212,9 +212,9 @@
 			);
 			dependencies = (
 			);
-			name = "Uni Life";
+			name = AmiGo;
 			productName = "Uni Life";
-			productReference = 27BEED032789BA8D007434C2 /* Uni Life.app */;
+			productReference = 27BEED032789BA8D007434C2 /* AmiGo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				27BEED022789BA8D007434C2 /* Uni Life */,
+				27BEED022789BA8D007434C2 /* AmiGo */,
 			);
 		};
 /* End PBXProject section */
@@ -424,6 +424,7 @@
 				DEVELOPMENT_TEAM = 6252UT695R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AmiGo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +456,7 @@
 				DEVELOPMENT_TEAM = 6252UT695R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = AmiGo;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -487,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "Uni Life" */ = {
+		27BEED272789BA8F007434C2 /* Build configuration list for PBXNativeTarget "AmiGo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27BEED282789BA8F007434C2 /* Debug */,

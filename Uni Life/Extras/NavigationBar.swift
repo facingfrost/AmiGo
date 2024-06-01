@@ -34,10 +34,10 @@ struct NavigationBar: View {
 
                 }
                 
-                .frame(maxWidth:.infinity,maxHeight: 40,alignment: .leading)
+                .frame(maxWidth:.infinity,maxHeight: 60,alignment: .leading)
                 .padding(.leading, 20)
                 .padding(.trailing,100)
-                .padding(.top, 50)
+                .padding(.top, 60)
                 .offset(y:hasScrolled ? -4:0)
             }
             else{

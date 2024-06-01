@@ -155,17 +155,20 @@ var eventis = [
 
     
     Eventi(title: "Quiz night", category: "Games", description: "Come along to the quiz night where you can win prizes", price: 5, date: "24 Feb", hour: "22:00", location: "UPC", organization: "UPC Quiz Club", address: "Carrer de Jordi Girona, 1", capacity: 50, imageName: "quiz"),
+    Eventi(title: "Let's party", category: "Parties", description: "I promise this is the greatest party in Barcelona", price: 0, date: "20 Dec", hour: "9:00", location: "Good Party Place", organization: "Party Club", address: "Plaça d'Espanya", capacity: 200, imageName: "party"),
     Eventi(title: "IT Meeting", category: "Conferences", description: "Come to the IT Meeting to get to know the companies that work in the IT field", price: 0, date: "20 Dec", hour: "9:00", location: "Plaça d'Espanya", organization: "IT Department", address: "Plaça d'Espanya", capacity: 200, imageName: "ITMeeting"),
     Eventi(title: "Mountain trip", category: "Trips", description: "Trip to the mountains with a group of experts who will make you explore wonderful places.", price: 15, date: "2 Mar", hour: "8:00", location: "Montserrat", organization: "Hiking Org", address: "Montserrat", capacity: 40, imageName: "gita"),
     Eventi(title: "Opening for Physics club", category: "Openings", description: "Celebrate the opening of Physics club", price: 0, date: "10 Dec", hour: "11:00", location: "Zona Universitaria", organization: "UPC", address: "Zona Universitaria", capacity: 100, imageName: "Cabibbo"),
     
     Eventi(title: "Christmas concert", category: "Concerts", description: "Christmas concert played by the orchestra", price: 0, date: "24 Dec", hour: "21:00", location: "Collblanc", organization: "City council", address: "Collblanc", capacity: 100, imageName: "Orchestra"),
 
+    Eventi(title: "Disco", category: "Parties", description: "I'm sure you will love this disco", price: 0, date: "24 Dec", hour: "21:00", location: "Collblanc", organization: "City council", address: "Collblanc", capacity: 100, imageName: "silentdisco"),
     
     Eventi(title: "Plastic Free World", category: "Processions", description: "Help save the planet too, or at least make your contribution. We are an organization that I know brings together to clean the beaches of plastic. Many animals eat this plastic or get stuck in it, preventing their movements. Save the Planet", price: 0, date: "15 Mar", hour: "10:00", location: "La Rambla", organization: "Save the planet", address: "La Rambla, 1", capacity: 1000, imageName: "plasticfree"),
     Eventi(title: "Apple Conference", category: "Conferences", description: "Tim Cook comes to wisdom to discuss how important knowledge is and how it has changed people's lives in this last decade", price: 0, date: "25 Feb", hour: "9:30", location: "Palo Alto", organization: "Apple", address: "Palo Alto", capacity: 200, imageName: "Apple"),
     Eventi(title: "Donate blood", category: "Health", description: "Donate blood too, you can save lives", price: 0, date: "26 Feb", hour: "10:00", location: "UPC", organization: "UPC", address: "UPC", capacity: 2000, imageName: "sangue-1"),
     Eventi(title: "Gaudi", category: "Exhibitions", description: "Gaudi Exhibitions", price: 15, date: "14 Dec", hour: "10:00", location: "Casa Batlló", organization: "UPC", address: "UPC", capacity: 70, imageName: "banksy2"),
+    Eventi(title: "Laser Party", category: "Parties", description: "Laser game waiting for you", price: 15, date: "14 Dec", hour: "10:00", location: "Casa Batlló", organization: "UPC", address: "UPC", capacity: 70, imageName: "aperitivo"),
     Eventi(title: "Red Hot Chilli Peppers", category: "Concerts", description: "Concert at the stadium.", price: 50, date:"28 Mar", hour: "19:00", location: "Stadium", organization: "Concert Org", address: "Stadium", capacity: 10000, imageName: "Rhcp"),
     Eventi(title: "Prof meeting", category: "Conferences", description: "Prof will come and tell us about him", price: 0, date: "1 May", hour: "11:00", location: "UPC", organization: "UPC", address: "UPC", capacity: 100, imageName: "Salvatore"),
     
@@ -178,4 +181,24 @@ var eventis = [
     Eventi(title: "Mozart over time", category: "Concerts", description: "The orchestra will play for us the best pieces of the composer who changed the history of music, reliving the journey of the young composer, up to the last days of his life", price: 15, date: "27 Sep", hour: "21:00", location: "Palau de la Música Catalana", organization: "Palau de la Música Catalana", address: "Palau de la Música Catalana", capacity: 100, imageName: "Mozart"),
     
     Eventi(title: "Elon Musk", category: "Conferences", description: "Elon Musk will talk about SpaceX", price: 0, date: "3 May", hour: "10:00", location: "Online", organization: "SpaceX", address: "Online", capacity: 100, imageName: "ElonMusk")
+]
+
+
+var new_eventis = [
+    Eventi(title: "Disco", category: "Parties", description: "I'm sure you will love this disco", price: 0, date: "24 Dec", hour: "21:00", location: "Collblanc", organization: "City council", address: "Collblanc", capacity: 100, imageName: "silentdisco"),
+    Eventi(title: "Laser Party", category: "Parties", description: "Laser game waiting for you", price: 15, date: "14 Dec", hour: "10:00", location: "Casa Batlló", organization: "UPC", address: "UPC", capacity: 70, imageName: "aperitivo"),
+    Eventi(title: "Quiz night", category: "Games", description: "Come along to the quiz night where you can win prizes", price: 5, date: "24 Feb", hour: "22:00", location: "UPC", organization: "UPC Quiz Club", address: "Carrer de Jordi Girona, 1", capacity: 50, imageName: "quiz"),
+    Eventi(title: "Football tournament", category: "Sports", description: "Football tournament with prizes", price: 10, date: "24 May", hour: "14:00", location: "Sports center", organization: "Sports center", address: "Sports center", capacity: 20, imageName: "Calcio"),
+    Eventi(title: "Red Hot Chilli Peppers", category: "Concerts", description: "Concert at the stadium.", price: 50, date:"28 Mar", hour: "19:00", location: "Stadium", organization: "Concert Org", address: "Stadium", capacity: 10000, imageName: "Rhcp"),
+    Eventi(title: "Mountain trip", category: "Trips", description: "Trip to the mountains with a group of experts who will make you explore wonderful places.", price: 15, date: "2 Mar", hour: "8:00", location: "Montserrat", organization: "Hiking Org", address: "Montserrat", capacity: 40, imageName: "gita"),
+    Eventi(title: "Let's get vaccinated", category: "Health", description: "Request the vaccine through public health service", price: 0, date: "25 Jan", hour: "11:00", location: "UPC", organization: "UPC", address: "UPC", capacity: 1000, imageName: "vaccino"),
+    Eventi(title: "Monet", category: "Exhibitions", description: "Monet Exhibitions", price: 15, date: "27 Mar", hour: "10:00", location: "BCN", organization: "BCN", address: "BCN", capacity: 200, imageName: "monet"),
+    
+    Eventi(title: "Mozart over time", category: "Concerts", description: "The orchestra will play for us the best pieces of the composer who changed the history of music, reliving the journey of the young composer, up to the last days of his life", price: 15, date: "27 Sep", hour: "21:00", location: "Palau de la Música Catalana", organization: "Palau de la Música Catalana", address: "Palau de la Música Catalana", capacity: 100, imageName: "Mozart"),
+    
+    Eventi(title: "Elon Musk", category: "Conferences", description: "Elon Musk will talk about SpaceX", price: 0, date: "3 May", hour: "10:00", location: "Online", organization: "SpaceX", address: "Online", capacity: 100, imageName: "ElonMusk"),
+    Eventi(title: "Plastic Free World", category: "Processions", description: "Help save the planet too, or at least make your contribution. We are an organization that I know brings together to clean the beaches of plastic. Many animals eat this plastic or get stuck in it, preventing their movements. Save the Planet", price: 0, date: "15 Mar", hour: "10:00", location: "La Rambla", organization: "Save the planet", address: "La Rambla, 1", capacity: 1000, imageName: "plasticfree"),
+    Eventi(title: "Apple Conference", category: "Conferences", description: "Tim Cook comes to wisdom to discuss how important knowledge is and how it has changed people's lives in this last decade", price: 0, date: "25 Feb", hour: "9:30", location: "Palo Alto", organization: "Apple", address: "Palo Alto", capacity: 200, imageName: "Apple"),
+    Eventi(title: "Donate blood", category: "Health", description: "Donate blood too, you can save lives", price: 0, date: "26 Feb", hour: "10:00", location: "UPC", organization: "UPC", address: "UPC", capacity: 2000, imageName: "sangue-1"),
+    Eventi(title: "Gaudi", category: "Exhibitions", description: "Gaudi Exhibitions", price: 15, date: "14 Dec", hour: "10:00", location: "Casa Batlló", organization: "UPC", address: "UPC", capacity: 70, imageName: "banksy2")
 ]

@@ -83,7 +83,7 @@ struct SpotView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 10))
                         .frame(width: 320,alignment: .trailing)
                     }else{
-                        Text("You made this commercial")
+                        Text("You made this public")
                             .foregroundColor(.gray)
                             .bold()
                             .padding(.vertical,10)
